@@ -19,7 +19,22 @@ import config from "@/config/general";
 const Form = () => {
   const googleFormURL = 'https://forms.gle/zXxN1s1m4ZqR7VK96';
 
+  const event = ({ action, category, label, value }: any) => {
+    (window as any).gtag('event', action, {
+      event_category: category,
+      event_label: label,
+      value: value,
+    });
+  };
+
   const handleClick = () => {
+    event({
+      action: 'click_join_waitlist',
+      category: 'action',
+      label: 'Join Waitlist button clicked',
+      value: 'waitlist',
+    });
+    
     window.open(googleFormURL, '_blank');
   };
 
