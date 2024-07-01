@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="w-11/12 xl:w-[1050px] mx-auto flex md:flex-row flex-col justify-between md:gap-0 gap-12 items-start py-16">
           <div className="flex flex-col gap-2">
             <Image
-              src={"/logo.svg"}
-              width={180}
+              src={"/slate.svg"}
+              width={150}
               height={60}
               alt={config.title}
             />
@@ -39,9 +39,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-11/12 xl:w-[1050px] mx-auto pb-16">
-          © 2023 -
+          © 2024 -
           <Link
-            href="https://twitter.com/beratbozkurt0/status/1699164095994372577"
+            href="https://x.com/slateappo7"
             passHref
             legacyBehavior
           >

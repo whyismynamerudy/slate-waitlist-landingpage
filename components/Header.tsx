@@ -6,7 +6,7 @@ import config from "@/config/general";
 const Header = () => {
   return (
     <header className="flex-col sm:flex-row flex justify-between items-start">
-      <Image src={"/logo.svg"} width={180} height={60} alt={config.title} />
+      <Image src={"/slate.svg"} width={150} height={60} alt={config.title} />
       <nav>
         <ul className="flex sm:mt-0 mt-4 items-center lg:gap-7 gap-3 font-medium text-base sm:text-lg">
           <li className="text-black">
@@ -21,13 +21,13 @@ const Header = () => {
             </Link>
           </li>
           <li className="bg-activeButton text-white rounded py-2">
-            <Link href={config.subscribeForm} passHref legacyBehavior>
+            <Link href="mailto:slateappo7@gmail.com" passHref legacyBehavior>
               <a
                 className="px-5 py-2 rounded"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Register
+                Contact Us
               </a>
             </Link>
           </li>

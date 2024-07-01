@@ -1,7 +1,7 @@
 const config = {
-    domain: "theproduct.com",
-    title: "Waitlist Page | The Product",
-    description: "Elevate your texts with the perfect emojis. Usemoji.app is coming soon! Join the waiting list for updates and exclusive access.",
+    domain: "slate.whyismynamerudy.tech",
+    title: "Waitlist Page | The Slate App",
+    description: "Revamp your browser experience. Turn the internet into your own personal notebook. Join the waiting list for updates and exclusive access.",
     subscribeForm: "https://dashboard.mailerlite.com/forms/631411/101265918935434456/share",
 
     socials: {
@@ -9,11 +9,13 @@ const config = {
     },
 
     contents: {
-        title: "Discover Your Ideal Experience with The Product",
-        markOfTitle: "The Product", // its for marking the title. The text must contain on title. If not, it will be ignored.
-        description: `Step into a realm of possibilities with The Product. Immerse yourself
-        in a shopping journey where intuitive features and cutting-edge design
-        come together to enhance your every selection.`,
+        title: "Turn the Internet into Your Own Personal Notebook with The Slate App",
+        markOfTitle: "The Slate App", // its for marking the title. The text must contain on title. If not, it will be ignored.
+        description: `Discover a new dimension of browsing with The Slate App. 
+        Immerse yourself in a digital canvas where seamless note-taking and precise 
+        text highlighting redefine your web experience.`, //  Navigate effortlessly through 
+        // online content, blending intuitive features with elegant design to elevate your 
+        // productivity with every click.
 
         about: [
             {
